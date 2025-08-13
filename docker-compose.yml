@@ -3,10 +3,10 @@ version: "3.9"
 services:
   postgres:
     image: postgres:latest
-    container_name: facturacion-db
+    container_name: agroflow-db
     restart: always
     environment:
-      POSTGRES_DB: facturacion
+      POSTGRES_DB: central
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
     ports:
